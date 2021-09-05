@@ -76,7 +76,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     // "Timlock":    timelock.address
   }
 
-  writeFileSync('contractData.json', JSON.stringify(contracts));
+  writeFileSync('farms.json', JSON.stringify(contracts));
 };
 
 export default func;
